@@ -1,0 +1,20 @@
+{
+  "name": "rea-china",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-coffeelint": "*",
+    "grunt-available-tasks": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-copy": "*"
+  }
+}

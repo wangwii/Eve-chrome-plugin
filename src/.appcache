@@ -1,0 +1,9 @@
+CACHE MANIFEST
+CACHE:
+netdna.bootstrapcdn.com/*
+ajax.googleapis.com/*
+/bootstrap.min.css
+
+NETWORK:
+*
+

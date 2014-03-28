@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Miss Eve - REA china team assistant</title>
+</head>
+<body>
+<!-- page content -->
+<div id="main" class="container">
+  <div class="page-header">
+    <img src="resources/icon_128.png" class="img-rounded pull-left"/>
+    <h1>
+      Miss Eve
+      <small>REA China team assistant</small>
+    </h1>
+  </div>
+
+  <ul id="apps" class="nav nav-pills"></ul>
+  <iframe src="http://www.myfun.com" frameborder="0" width="100%" height="75%"></iframe>
+</div>
+
+<!-- scripts -->
+<script src="library/require-2.1.10.min.js" data-main="scripts/index.js"></script>
+
+<!-- html template --> 
+<script id="pluginTemplate" type="text/html">
+  <li class="capitalize">
+    <a href='#'>
+      <span class="glyphicon glyphicon-{{icon}}"></span>
+      {{{name}}}
+    </a>
+  </li>
+</script>
+</body>
+</html>

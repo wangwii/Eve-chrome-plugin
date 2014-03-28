@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Eve",
+  "description": "Eve for REA China team",
+  "version": "0.1",
+  "offline_enabled":true,
+  "icons": {
+    "16": "resources/icon_16.png",
+    "32": "resources/icon_32.png",
+    "64": "resources/icon_64.png",
+    "128": "resources/icon_128.png",
+    "256": "resources/icon_256.png"
+  },
+  "permissions": [
+    "*://*/"
+  ],
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  }  
+}

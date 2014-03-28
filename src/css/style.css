@@ -1,0 +1,7 @@
+#apps{
+  margin: 10px auto;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
